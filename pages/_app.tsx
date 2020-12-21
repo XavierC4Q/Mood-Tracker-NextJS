@@ -1,8 +1,13 @@
 import {NextComponentType} from 'next';
-import '../styles/globals.css';
+import {Provider} from 'next-auth/client';
+import '../styles/globals.scss';
 
 function MyApp({Component, pageProps}: {Component: NextComponentType; pageProps: any}) {
-	return <Component {...pageProps} />;
+	return (
+		<Provider session={pageProps.session}>
+			<Component {...pageProps} />
+		</Provider>
+	);
 }
 
 export default MyApp;
