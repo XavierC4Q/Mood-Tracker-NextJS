@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.form-container {
+    display: flex;
+    // position: relative;
+    flex-direction: column;
+    padding: 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.back-btn {
+    border: 0;
+    padding: 15px;
+    background-color: rgb(158, 125, 219);
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    margin: 5px;
+}
+
+.signin-header {
+    font-family: 'Nunito', sans-serif;
+    color: rgba(20, 17, 26, 0.63);
+
+}
+
+.signin-button {
+    border: 0;
+    padding: 15px;
+    background-color: rgb(158, 125, 219);
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    margin: 5px;
+}
